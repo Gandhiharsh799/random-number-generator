@@ -20,7 +20,7 @@ export default function GenerateNumber({title, button}) {
         <p>
           <button onClick={generateRandomNumber}>{button}</button>
         </p>
-        <p>Generated Number: {randomNumber}</p>
+         <p>Generated Number: {randomNumber}</p>
         {generatedNumber ? <p>{randomNumber} is even.</p> : <p>{randomNumber} is odd.</p>}
       </div>
     </>
